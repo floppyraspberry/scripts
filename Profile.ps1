@@ -114,12 +114,12 @@ Write-Host 'Docker'
 Write-Host 'docker system prune'
 Write-Host ''
 Write-Host "linux"
-Write-Host 'locate'
+Write-Host 'use' 'locate' " to search "
 Write-Host ""
 Write-Host 'Git'
 Write-Host 'git remote prune origin' 'also see: https://www.git-tower.com/learn/git/faq/cleanup-remote-branches-with-git-prune'
 Write-Host ''
-Write-Host "CMD also see: C:\Users\User\OneDrive\Remco\Private\Code snippets\CMD"
+Write-Host "CMD also see: ~\Private\Code snippets\CMD"
 Write-Host ""
 Write-Host 'Your Powershell version of today is: '($PsVersionTable.PSVersion )''
 $IPAddress = (Get-NetIPAddress -AddressFamily IPv4 -InterfaceAlias Ethernet).IPAddress
